@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router";
 import { useState } from "react";
-import LogoImg from "../assets/logo.svg";
+import LogoImg from "../assets/logo-with-words.svg";
+import LogoImgWords from "../assets/logo.svg";
 import Footer from "./Footer";
 
 function Layout({ children }) {
@@ -26,8 +27,8 @@ function Layout({ children }) {
               className="text-2xl font-extrabold flex flex-row items-center space-x-4 text-amber-400"
               to="/"
             >
-              <img src={LogoImg} alt="Legal Tech Army Logo" className="h-10" />
-              <span className="tracking-tighter">Legal Tech Army</span>
+              <img src={LogoImgWords} alt="Legal Tech Army Logo" className="h-12" />
+              <img src={LogoImg} alt="Legal Tech Army Logo" className="h-6" />
             </Link>
 
             {/* Desktop Nav */}

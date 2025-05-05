@@ -118,10 +118,10 @@ function Chat({ agentType, initialMessage, directQuestion }) {
         <div className="cyber-chat bg-[#0e1726] border border-[#24344d] rounded-xl overflow-hidden shadow-xl">
           <div className="chat-header bg-[#121c30] text-amber-400 px-4 py-2 flex items-center justify-between border-b border-[#24344d]">
             <span className="font-bold text-lg tracking-wider">
-              Legal Tech Army
+              Legal Tech
             </span>
             <span className="text-sm text-gray-400">
-              Agent: {agentType.toUpperCase()}
+              Agent - {agentType.toUpperCase()}
             </span>
           </div>
 
