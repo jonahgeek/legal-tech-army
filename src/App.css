@@ -1,0 +1,25 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+@keyframes float {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 1000px 1000px;
+  }
+}
+.animate-mesh {
+  animation: float 60s linear infinite;
+}
