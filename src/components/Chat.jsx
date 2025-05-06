@@ -12,7 +12,7 @@ function Chat({ agentType, initialMessage, directQuestion }) {
   const messagesEndRef = useRef(null);
 
   const API_BASE_URL =
-    "https://f19c-2c0f-3d00-63d-7e00-a879-ffd9-4a30-cf56.ngrok-free.app";
+    "https://258f-2c0f-3d00-63d-7e00-1d94-c024-c1e3-c6b0.ngrok-free.app";
 
   const scrollToBottom = () =>
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
